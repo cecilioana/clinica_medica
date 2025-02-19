@@ -1,0 +1,65 @@
+.fundo{
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    border-radius: 25px;
+    margin-top: 120px;
+    overflow-x: scroll;
+
+}
+
+.pesquisa{
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(112, 193, 112) ;
+    border-radius: 25px;
+    color: white;
+    margin-left: 2px;
+    margin: 0%;
+}
+
+.divpesquisa{
+    display: flex;
+    height: 30px;
+    width: 40%;
+    background-color:rgb(112, 193, 112);
+    border-radius: 25px;
+    padding: 5px;
+    margin-bottom: 1%;
+}
+
+.h2{
+    color: black;
+    text-align: center;
+    padding: 1%;
+}
+
+.table{
+    margin: auto;
+}
+
+.table,.th ,.tr ,.td{
+    color:black;
+    border: solid 2px  green;
+    border-collapse: collapse;
+}
+
+
+.th{
+    padding: 5px;
+    background-color:rgb(112, 193, 112);
+}
+
+.td{
+    padding: 10px;
+}
+
+.tr:hover {
+    background-color: rgb(188, 248, 188);
+}
+
+
+
+

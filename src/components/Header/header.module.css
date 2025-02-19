@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Delius&family=Merienda:wght@300..900&family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header{
+    background-color: green;
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    margin-bottom: 3%;
+    position: fixed;
+    
+}
+
+.icone{
+    margin-left: 2%;
+}
+
+.nav{
+    width: 100%;
+
+}
+
+.ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap:1%;
+    list-style-type: none; 
+}
+
+.li{
+    position: relative;
+    font-family: 'Sour Gummy';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.submedico{
+    background-color: green;
+    list-style: none;
+    position: absolute;
+    font-family: 'Sour Gummy';
+    width: 75px;
+}
+
+.subpaciente{
+    background-color: green;
+    list-style: none;
+    position: absolute;
+    width: 90px;
+    font-family: 'Sour Gummy';
+}
+
+.subagendamento{
+    background-color: green;
+    list-style: none;
+    position: absolute;
+    width: 140px;
+    font-family: 'Sour Gummy';
+}
+
+.menu{
+    display: none;
+    width: 100px;
+    height: 50px;
+}
+
+.ulsubmenu{
+    display: none;
+}
+
+.lisubmenu{
+    display: none;
+}
+
+.menusubmedico{
+    display: none;
+}
+
+.menusubpaciente{
+    display: none;
+}
+
+.menusubagendamento{
+    display: none;
+}
+
+.submenu{
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+
+    .menu{
+        width: 40px;
+        height: 75px;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+        justify-content: center;
+    }
+
+    .header .submenu{
+        position: fixed;
+        gap: 1%;
+        display: flex;
+        width: 100vw;
+        height: 45px;
+        top: 75px;
+        background-color: rgb(38, 137, 38);
+        align-items: center;
+        margin-bottom: 6%;
+    }
+
+    .ul{
+        display: none;
+    }
+
+    .menu1{
+        background-color: rgb(255, 255, 255);
+        height: 2px;
+        width: 30px; 
+
+    }
+
+    .menu2{
+        background-color: rgb(255, 255, 255);
+        height: 2px;
+        width: 30px; 
+    }
+    .menu3{
+        background-color: rgb(255, 255, 255);
+        height: 2px;
+        width: 30px; 
+    }
+
+    .ulsubmenu{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap:3%;
+        list-style-type: none; 
+    }
+    
+    .lisubmenu{
+        display: block;
+        position: relative;
+        font-family: 'Sour Gummy';
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .menusubmedico{
+        display: block;
+        background-color: green;
+        list-style: none;
+        position: absolute;
+        font-family: 'Sour Gummy';
+        width: 75px;
+    }
+    
+    .menusubpaciente{
+        display: block;
+        background-color: green;
+        list-style: none;
+        position: absolute;
+        width: 90px;
+        font-family: 'Sour Gummy';
+    }
+
+    .menusubagendamento{
+        display: block;
+        background-color: green;
+        list-style: none;
+        position: absolute;
+        width: 140px;
+        font-family: 'Sour Gummy';
+    }
+    
+}
+    
